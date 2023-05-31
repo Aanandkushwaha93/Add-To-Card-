@@ -13,6 +13,7 @@ const Home = (props) => {
                     <b>
                 Brand Name:I-phone 13
                     </b>
+                    <br/>
                     <b>
                         Price:$ 79,999
                     </b>
@@ -20,7 +21,7 @@ const Home = (props) => {
                 <div className="btn-wrapper item">
                     <button className='add-to-cart' onClick={() =>
                         props.addToCartHandler({ price: 1000, name: "i phone 11" })
-                    }>Add To Cart</button>
+                    }>Add To Cart</button><br/>
                     <button className='remove-to-cart' onClick={() =>
                         props.removeToCartHandler({ price: 1000, name: "i phone 11" })
                     }>Remove To Cart</button>
